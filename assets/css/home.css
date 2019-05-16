@@ -1,0 +1,121 @@
+/*UI中样式*/
+@font-face{
+	font-family: 'myFont';
+	src: url('../fonts/Montserrat-Bold.ttf');
+}
+.carousel-content{
+	position: relative;
+}
+#myBar {
+	font-family: myFont;
+	position: absolute;
+	z-index: 999;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+a{
+	color:#fff;
+}
+a:hover {
+	color:#fff;
+}
+.myBar-link {
+	margin:0 15px;
+	letter-spacing: 2px;
+}
+.grey {
+	color: #979b9f
+}
+.grey-bg {
+	background-color: #3b3d40
+}
+.carousel-caption {
+	vertical-align: middle;
+	padding: 0px 180px;
+	top:50%;
+	transform: translateY(-40%);
+}
+.carousel-title {
+	font-size: 60px;
+	font-family: myFont;
+}
+.carousel-tip {
+	font-size: 20px;
+	padding: 0px 130px;
+	color: #c2c2c3;
+}
+/*去除carousel两边阴影*/
+.carousel-control.left {
+	background-image:none;
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+}
+.carousel-control.right {
+	left: auto;
+	right: 0;
+
+	background-image:none;
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+.carousel-control-top {
+	margin-top: 500px
+}
+#myForm {
+	padding:60px 0px ;
+	text-align: center;
+}
+.form-group {
+	padding: 0 15px;
+}
+.form-bg {
+	background-color: #585a5c ;
+	color: #fff;
+	border:none;
+}
+#form-select {
+	width: 550px;
+	height: 38px;
+}
+#form-email {
+	width: 250px;
+	height: 38px;
+}
+.btn-start {
+	font-family: myfont;
+	letter-spacing: 2px;
+	background-color: #2e71f2;
+	color: #fff;
+	border-radius: 20px;
+	font-size: 8px;
+	padding: 10px 40px;
+	margin-left:15px;
+}
+#myNext {
+	padding: 20px 200px 100px 200px
+}
+#myLove {
+	text-align: center;
+	margin:100px 0;
+}
+.love-title {
+	font-family: myFont;
+	font-size:60px;
+}
+.love-tip {
+	font-size:20px;
+	padding: 0 350px;
+}
+.colBox {
+	text-align: center;
+}
+.next-title {
+	letter-spacing: 2px;
+	margin-top:10px;
+	font-family: myFont;
+}
+.next-tip {
+	padding: 0 20px;
+}
